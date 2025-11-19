@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Inter" , sans-serif;
+}
+.hero{
+    width: 375px;
+    height: 1057px;
+    background-color: rgba(243, 252, 247, 1);
+    display: flex;
+    flex-direction: column;
+}
+.hero-header{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-header > .logo{
+    width: 120px;
+    height: 39px;
+    color: rgba(6, 193, 103, 1);
+    font-size: 32px;
+    font-weight: 500;
+    position: relative;
+    top: 24px;
+    left: 30px;
+}
+nav{
+    position: relative;
+    Right: 0;
+}
+nav > ul{
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 28px;
+}
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+.hero-body{
+    display: flex;
+    flex-direction: column;
+}
+.hero-body-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero-body-info > h1{
+    width: 320px;
+    height: 186px;
+    color: rgba(29, 29, 31, 1);
+    font-size: 51px;
+    text-align: center;
+    font-weight: 500;
+    align-self: center;
+
+}
+.hero-body-info > p{
+    width: 316px;
+    height: 66px;
+    color: rgba(29, 29, 31, 1);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    align-self: center;
+    line-height: 159%;
+    margin-top: 25px;
+}
+.hero-body-info > button{
+    width: 320px;
+    height: 68px;
+    background-color: rgba(6, 193, 103, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29.5px;
+    margin-top: 53px;
+    margin-bottom: 47px;
+}
+.hero-body-info > button > p{
+    width: 89px;
+    height: 19px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero-body-info > button > i{
+    width: 22.38px;
+    height: 11px;
+    padding-top: 4px;
+}
+.hero-body-img{
+    margin-left: 26.99px;
+    margin-bottom: 28.18px;
+}
+.brand1, .brand2, .brand3, .brand4 , .brand5{
+    display: block;
+} 
+.brand4 , .brand5{
+    display: none;
+}
+.brands{
+    width: 320px;
+    height: 87.37px;
+    margin-top: 24px;
+    margin-left: 27px;
+    position: relative;
+}
+.brand1{
+    width: 123.67px;
+    height: 28.59px; 
+}
+.brand2{
+    width: 117.97px;
+    height: 23.67px;   
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.brand3{
+    width: 119.06px;
+    height: 27.18px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+.services{
+    width: 324px;
+    height: 497px;
+    margin-left: 27px;
+    margin-top: 59.13px;
+    border-top: 1px solid rgba(112, 112, 112, 0.5) ;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.5);
+    position: relative;
+}
+.service1{
+    width: 117px;
+    height: 137px;
+    position: absolute;
+    left: 16px;
+    top: 59.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service2{
+    width: 148px;
+    height: 137px;
+    position: absolute;
+    left: 176px;
+    top: 59.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service3{
+    width: 132px;
+    height: 137px;
+    position: absolute;
+    left: 16px;
+    bottom: 59.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service4{
+    width: 113px;
+    height: 137px;
+    position: absolute;
+    left: 193px;
+    bottom: 59.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-icon{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(243, 252, 247, 1);
+    border: 0;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services h4{
+    color: rgba(29, 29, 31, 1);
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 21px;
+    padding-bottom: 7px;
+}
+.services p{
+    color: rgba(29, 29, 31, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
