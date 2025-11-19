@@ -249,10 +249,10 @@ nav a{
 }
 .benefit-checks{
     height: 19.39px;
-    margin-left: 51px;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
+    margin-left: 22px;
     margin-bottom: 20.61px;
 }
 .benefit-checks > p{
