@@ -209,3 +209,54 @@ nav a{
     font-size: 14px;
     font-weight: 400;
 }
+.benefit{
+    width: 320px;
+    height: 868.39px;
+    margin-top: 38.5px;
+    margin-left: 27px;
+    display: flex;
+    flex-direction: column;
+}
+.benefit-img{
+    width: 320px;
+    height: 465px;
+    background-color: rgba(243, 250, 251, 1);
+    margin-bottom: 57px;
+    border: 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefit-img > img{
+    display: block;
+    width: 274px;
+    height: 405px;
+}
+.benefit-details > p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(29, 29, 31, 1);
+    margin-bottom: 13px;
+}
+.benefit-details > h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgba(29, 29, 31, 1);
+    text-align: center;
+    margin-bottom: 52px;
+}
+.benefit-checks{
+    height: 19.39px;
+    margin-left: 51px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20.61px;
+}
+.benefit-checks > p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(29, 29, 31, 1);
+}
