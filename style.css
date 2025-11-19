@@ -326,3 +326,72 @@ nav a{
     font-size: 16px;
     font-weight: 400;
 }
+.features{
+    width: 320px;
+    height: 2520px;
+    margin-top: 129px;
+    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features > p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(29, 29, 31, 1);
+    margin-bottom: 13px;
+}
+.features > h1{
+    font-size: 35px;
+    font-weight: 500px;
+    color: rgba(29, 29, 31, 1);
+    text-align: center;
+    margin-bottom: 65px;
+}
+.feature-card{
+    width: 320px;
+    height: 585px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature-card > img{
+    width: 320px;
+    height: 292.5px;
+}
+.card-details{
+    height: 292.5px;
+    background-color: rgba(240, 241, 236, 1);
+    border: 1px solid rgba(6, 193, 103, 1);
+    display: flex;
+    flex-direction: column;
+}
+.card-details > h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(29, 29, 31, 1);
+    margin-top: 37.5px;
+    margin-bottom: 25px;
+    margin-left: 38px;
+}
+.card-details > p{
+    width: 194px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 38px;
+    margin-bottom: 37.5px;
+}
+.card-details > button{
+    width: 148px;
+    height: 42px;
+    background-color: rgba(240, 237, 226, 1);
+    color: rgba(6, 193, 103, 1);
+    border: 0;
+    border-radius: 5px;
+    margin-left: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
