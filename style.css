@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@media screen and (max-width: 581px){
 *{
     margin: 0;
     padding: 0;
@@ -629,4 +630,5 @@ footer > p{
     color: rgba(29, 29, 31, 1);
     align-self: center;
     margin-top: 81px;
+}
 }
