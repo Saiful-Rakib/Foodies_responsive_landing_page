@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@media screen and (max-width: 581px){
 *{
     margin: 0;
     padding: 0;
@@ -631,4 +630,89 @@ footer > p{
     align-self: center;
     margin-top: 81px;
 }
+
+@media screen and (min-width: 1440px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        margin:0;
+        padding: 0;
+        font-family: "Inter" , sans-serif;
+    }
+    .hero{
+        width: 1440px;
+        height: 662.05px;
+        display: flex;
+        flex-direction: column;
+        gap: 65.9px;
+    }
+    .hero-header{
+        width: 1177px;
+        height: 38.94px;
+        margin-left: 135px;
+        margin-top: 41.94px;
+        gap: 550px;
+    }
+    .hero-header .logo{
+        top: 0;
+        left: 0;
+    }
+    .hero-header nav ul{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 11px;
+        margin-right: 0;
+    }
+    .hero-body{
+        flex-direction: row;
+        gap: 127px;
+        position: relative;
+    }
+    .hero-body-info{
+        width: 533px;
+        height: 336.51px;
+        margin-left: 135px;
+        margin-top: 47.93px;
+    }
+    .hero-body-info h1{
+        width: 533px;
+        height: 181.74px;
+        font-size: 75px;
+        font-weight: 600;
+        text-align: left;
+    }
+    .hero-body-info p{
+        width: 533px;
+        height: 45.93px;
+        text-align: left;
+        margin-top: 10.9px;
+        margin-bottom: 29.96px;
+        font: 16px;
+    }
+    .hero-body-info button{
+        width: 200px;
+        height: 67.9;
+        align-self: flex-start;
+        margin: 0;
+        border-radius: 12px;
+    }
+    .hero-body-info button p{
+        margin: 0;
+        text-align: center;
+    }
+    .hero-body-img{
+        width: 468px;
+        height: 515.25px;
+        margin: 0;
+    }
+    .hero-body-img img{
+        width: 468px;
+        height: 515.25px;
+    }
+    
 }
