@@ -12,7 +12,7 @@ body{
 .hero{
     background-color: rgba(243, 252, 247, 1);
     padding-bottom: 1.785rem;
-
+    
 }
 .hero-header{
     padding: 1.5rem 1.875rem;
@@ -86,7 +86,7 @@ nav a{
     display: none;
 }
 .brands{
-    width: 80%;
+    max-width: 86%;
     height: 87.37px;
     margin: 1.5rem auto;
     display: flex;
@@ -159,6 +159,9 @@ nav a{
     border-radius: 12px;
     padding: 23.5px 20px;
 }
+.service-details{
+    text-align: center;
+}
 .services h4{
     color: rgba(29, 29, 31, 1);
     font-size: 1.125rem;
@@ -173,13 +176,18 @@ nav a{
     opacity: 0.7;
 }
 .benefit{
+    max-width: 88%;
     margin: 2.40625rem auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
 }
 .benefit-img{
     width: 320px;
     height: 465px;
     background-color: rgba(243, 250, 251, 1);
-    margin: 0 auto 3.5625rem auto;
+    margin-bottom: 3.5625rem;
     border: 0;
     border-radius: 15px;
     padding: 1.5rem;
@@ -187,7 +195,6 @@ nav a{
 .benefit-details > p{
     font-size: 0.9375rem;
     font-weight: 500;
-    text-align: center;
     color: rgba(29, 29, 31, 1);
     margin-bottom: 0.8rem;
 }
@@ -195,7 +202,6 @@ nav a{
     font-size: 2.1875rem;
     font-weight: 500;
     color: rgba(29, 29, 31, 1);
-    text-align: center;
     margin-bottom: 3.25rem;
 }
 .benefit-check-container{
@@ -214,25 +220,27 @@ nav a{
     color: rgba(29, 29, 31, 1);
 }
 .star-product{
-    margin: 4.365rem 0 0 0;
+    margin: 4.365rem auto 0 auto;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .star-img{
     width: 320px;
     height: 521px;
     border: 0;
     border-radius: 15px;
-    margin: 0 auto;
     background-color: rgba(243, 250, 251, 1);
     padding-top: 1rem;
 }
-.star-product > p{
+.star-product-details > p{
     font-size: 0.94rem;
     font-weight: 500;
     margin-top: 2.1875rem;
     margin-bottom: 0.8125rem;
 }
-.star-product > h1{
+.star-product-details > h1{
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 3.31rem;
@@ -252,7 +260,7 @@ nav a{
     font-weight: 400;
     opacity: 0.7;
 }
-.star-product > button{
+.star-product-details > button{
     width: 320px;
     height: 68px;
     background-color: rgba(6, 193, 103, 1);
@@ -267,8 +275,6 @@ nav a{
     margin-right: auto;
 }
 .star-product > button > p{
-    width: 140px;
-    height: 19px;
     color: rgba(255, 255, 255, 1);
     font-size: 1rem;
     font-weight: 400;
@@ -291,12 +297,16 @@ nav a{
     color: rgba(29, 29, 31, 1);
     margin-bottom: 4rem;
 }
+.feature-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .feature-card{
     width: 320px;
     height: 585px;
     display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+    flex-wrap: wrap;
 }
 .feature-card > img{
     width: 320px;
@@ -559,34 +569,27 @@ footer > p{
     text-align: center;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1400px){
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
     body{
-        margin:0;
-        padding: 0;
+        max-width: 1440px;
+        margin:0 auto;
         font-family: "Inter" , sans-serif;
     }
     .hero{
-        width: 1440px;
-        height: 662.05px;
         display: flex;
         flex-direction: column;
         gap: 65.9px;
+        padding: 0 8.4rem;
     }
     .hero-header{
-        width: 1177px;
-        height: 38.94px;
-        margin-left: 135px;
-        margin-top: 41.94px;
-        gap: 550px;
-    }
-    .hero-header .logo{
-        top: 0;
-        left: 0;
+        padding: 0;
+        margin-top: 2.6rem;
+        margin-bottom: 4rem;
     }
     .hero-header nav ul{
         display: flex;
@@ -598,39 +601,31 @@ footer > p{
     }
     .hero-body{
         flex-direction: row;
-        gap: 127px;
-        position: relative;
+        justify-content: space-between;
+        margin-left: 0;
     }
     .hero-body-info{
         width: 533px;
-        height: 336.51px;
-        margin-left: 135px;
-        margin-top: 47.93px;
+        padding-top: 3rem;
     }
     .hero-body-info h1{
-        width: 533px;
-        height: 181.74px;
-        font-size: 75px;
+        font-size: 4.69rem;
         font-weight: 600;
         text-align: left;
     }
-    .hero-body-info p{
-        width: 533px;
-        height: 45.93px;
+    .hero-body-info > p{
         text-align: left;
         margin-top: 10.9px;
         margin-bottom: 29.96px;
-        font: 16px;
     }
     .hero-body-info button{
         width: 200px;
-        height: 67.9;
+        height: 67.9px;
         align-self: flex-start;
         margin: 0;
         border-radius: 12px;
     }
     .hero-body-info button p{
-        margin: 0;
         text-align: center;
     }
     .hero-body-img{
@@ -642,5 +637,171 @@ footer > p{
         width: 468px;
         height: 515.25px;
     }
-    
+    .brands{
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 103px;
+        margin-bottom: 103px;
+    }
+    .brand1{
+        width: 212.47px;
+        height: 49px;
+    }
+    .brand2{
+        width: 202.48px;
+        height: 49px;
+    }
+    .brand3{
+        width: 204.59px;
+        height: 49px;
+    }
+    .brand4{
+        display: block;
+        width: 202.68px;
+        height: 49px;
+    }
+    .brand5{
+        display: block;
+        width: 212.47px;
+        height: 49px;
+    }
+    .service1{
+        width: 209px;
+        height: 70px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .service2{
+        width: 240px;
+        height: 70px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .service3{
+        width: 214px;
+        height: 70px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .service4{
+        width: 205px;
+        height: 70px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .service-details{
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .benefit{
+        max-width: 85%;
+        max-height: 560.25px;
+        justify-content: start;
+        gap: 6.75rem;
+        text-align: left;
+        margin-top: 155.74px;
+        margin-bottom: 206.17px;
+    }
+    .benefit-img{
+        width: 493px;
+        height: 560.26px;
+        margin-bottom: 0;
+    }
+    .benefit-img img{
+        width: 445px;
+        height: 512.26px;
+    }
+    .benefit h1{
+        font-size: 3.75rem;
+    }
+    .benefit-details{
+        width: 537px;
+        padding-top: 4rem;
+    }
+    .benefit-check-container{
+        margin: 0;
+    }
+    .star-product{
+        max-width: 85%;
+        max-height: 607.12px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        text-align: left;
+        margin-top: 206.17px;
+        margin-bottom: 174,79px;
+    }
+    .star-img{
+        width: 541px;
+        height: 607.12px;
+        margin-bottom: 0;
+        padding: 3rem;
+    }
+    .star-img img{
+        width: 445px;
+        height: 512.26px;
+    }
+    .star-product-details{
+        width: 570px;
+        padding-top: 4.875rem;
+    }
+    .star-product-details > h1{
+        font-size: 3.85rem;
+    }
+    .star-infos{
+        max-width: 88%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .star-product-details > button{
+        width: 233px;
+        height: 78.89px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+        border-radius: 15px;
+    }
+    .features{
+        max-width: 85%;
+        margin-top: 174.79px;
+        margin-bottom: 191.72px;
+    }
+    .features > p{
+        width: 175px;
+        height: 48px;
+        margin: 0 auto;
+        background-color: rgba(243, 250, 251, 1);
+        color: rgba(6, 193, 103, 1);
+        border: 1px solid rgba(6, 193, 103, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+    .features > h1{
+        margin-top: 12px;
+        margin-bottom: 70.66px;
+        font-size: 3.75rem;
+    }
+    .feature-cards{
+        justify-content: center;
+    }
+    .feature-card{
+        width: 585px;
+        height: 292.5px;
+    }
+    .feature-card:nth-child(3){
+        flex-direction: row-reverse;
+    }
+    .feature-card:nth-child(4){
+        flex-direction: row-reverse;
+    }
+    .feature-card > img{
+        width: 292.5px;
+        height: 292.5px;
+    }
+    .feature-card > .card-details{
+        width: 292.5px;
+        height: 292.5px;
+    }
 }
