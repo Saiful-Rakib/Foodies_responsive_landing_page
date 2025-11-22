@@ -34,6 +34,11 @@ nav a{
 }
 .hero-body{
     margin: 0 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-body-info{
+    max-width: 533px;
 }
 .hero-body-info > h1{
     color: rgba(29, 29, 31, 1);
@@ -85,11 +90,10 @@ nav a{
     height: 87.37px;
     margin: 1.5rem auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
     row-gap: 2rem;
-    position: relative;
 }
 .brand1{
     width: 123.67px;
@@ -102,9 +106,6 @@ nav a{
 .brand3{
     width: 119.06px;
     height: 27.18px;
-    position: absolute;
-    bottom: 0;
-    left: 30%;
 }
 .services{
     width: 88%;
