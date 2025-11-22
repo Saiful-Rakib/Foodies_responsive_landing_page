@@ -5,115 +5,90 @@
     box-sizing: border-box;
 }
 body{
-    margin:0;
+    margin:0 auto;
     padding: 0;
     font-family: "Inter" , sans-serif;
 }
 .hero{
-    width: 375px;
-    height: 1057px;
     background-color: rgba(243, 252, 247, 1);
-    display: flex;
-    flex-direction: column;
+    padding-bottom: 1.785rem;
+
 }
 .hero-header{
+    padding: 1.5rem 1.875rem;
     display: flex;
     justify-content: space-between;
 }
 .hero-header > .logo{
-    width: 120px;
-    height: 39px;
     color: rgba(6, 193, 103, 1);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
-    position: relative;
-    top: 24px;
-    left: 30px;
-}
-nav{
-    position: relative;
-    Right: 0;
 }
 nav > ul{
-    list-style: none;
-    margin-top: 25px;
-    margin-right: 28px;
+    font-size: 0.9rem;
+    list-style: none;   
 }
 nav a{
     text-decoration: none;
     color: #000000;
 }
 .hero-body{
-    display: flex;
-    flex-direction: column;
-}
-.hero-body-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin: 0 1.8rem;
 }
 .hero-body-info > h1{
-    width: 320px;
-    height: 186px;
     color: rgba(29, 29, 31, 1);
-    font-size: 51px;
+    font-size: 3.25rem;
     text-align: center;
     font-weight: 500;
-    align-self: center;
-
 }
 .hero-body-info > p{
-    width: 316px;
-    height: 66px;
     color: rgba(29, 29, 31, 1);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     text-align: center;
-    align-self: center;
     line-height: 159%;
-    margin-top: 25px;
+    margin-top: 1.5rem;
 }
 .hero-body-info > button{
-    width: 320px;
+    width: 317.41px;
     height: 68px;
     background-color: rgba(6, 193, 103, 1);
     color: rgba(255, 255, 255, 1);
     border: 0;
-    align-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 29.5px;
-    margin-top: 53px;
-    margin-bottom: 47px;
+    margin-top: 3.1325rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.9365rem;
 }
 .hero-body-info > button > p{
-    width: 89px;
-    height: 19px;
     color: rgba(255, 255, 255, 1);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
-.hero-body-info > button > i{
-    width: 22.38px;
-    height: 11px;
-    padding-top: 4px;
-}
 .hero-body-img{
-    margin-left: 26.99px;
-    margin-bottom: 28.18px;
+    width: 320px;
+    height: 470px;
+    margin: 0 auto;
 }
-.brand1, .brand2, .brand3, .brand4 , .brand5{
+.brand1, .brand2, .brand3{
     display: block;
 } 
 .brand4 , .brand5{
     display: none;
 }
 .brands{
-    width: 320px;
+    width: 80%;
     height: 87.37px;
-    margin-top: 24px;
-    margin-left: 27px;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 2rem;
     position: relative;
 }
 .brand1{
@@ -122,33 +97,30 @@ nav a{
 }
 .brand2{
     width: 117.97px;
-    height: 23.67px;   
-    position: absolute;
-    top: 0;
-    right: 0;
+    height: 23.67px;  
 }
 .brand3{
     width: 119.06px;
     height: 27.18px;
     position: absolute;
     bottom: 0;
-    left: 100px;
+    left: 30%;
 }
 .services{
-    width: 324px;
-    height: 497px;
-    margin-left: 27px;
-    margin-top: 59.13px;
+    width: 88%;
+    margin: 3.696rem auto 0;
+    padding: 3rem 0;
     border-top: 1px solid rgba(112, 112, 112, 0.5) ;
     border-bottom: 1px solid rgba(112, 112, 112, 0.5);
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 3rem;
 }
 .service1{
-    width: 117px;
+    width: 148px;
     height: 137px;
-    position: absolute;
-    left: 16px;
-    top: 59.5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,31 +129,22 @@ nav a{
 .service2{
     width: 148px;
     height: 137px;
-    position: absolute;
-    left: 176px;
-    top: 59.5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .service3{
-    width: 132px;
+    width: 148px;
     height: 137px;
-    position: absolute;
-    left: 16px;
-    bottom: 59.5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .service4{
-    width: 113px;
+    width: 148px;
     height: 137px;
-    position: absolute;
-    left: 193px;
-    bottom: 59.5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,77 +156,64 @@ nav a{
     background-color: rgba(243, 252, 247, 1);
     border: 0;
     border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 23.5px 20px;
 }
 .services h4{
     color: rgba(29, 29, 31, 1);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
-    padding-top: 21px;
-    padding-bottom: 7px;
+    padding-top: 1.3125rem;
+    padding-bottom: 0.4375rem;
 }
 .services p{
     color: rgba(29, 29, 31, 1);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     opacity: 0.7;
 }
 .benefit{
-    width: 320px;
-    height: 868.39px;
-    margin-top: 38.5px;
-    margin-left: 27px;
-    display: flex;
-    flex-direction: column;
+    margin: 2.40625rem auto 0;
 }
 .benefit-img{
     width: 320px;
-    height: 521px;
+    height: 465px;
     background-color: rgba(243, 250, 251, 1);
-    margin-bottom: 57px;
+    margin: 0 auto 3.5625rem auto;
     border: 0;
     border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 1.5rem;
 }
 .benefit-details > p{
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 500;
     text-align: center;
     color: rgba(29, 29, 31, 1);
-    margin-bottom: 13px;
+    margin-bottom: 0.8rem;
 }
 .benefit-details > h1{
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: 500;
     color: rgba(29, 29, 31, 1);
     text-align: center;
-    margin-bottom: 52px;
+    margin-bottom: 3.25rem;
+}
+.benefit-check-container{
+    width: 275px;
+    margin: 0 auto;
 }
 .benefit-checks{
-    height: 19.39px;
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-left: 22px;
-    margin-bottom: 20.61px;
+    margin-bottom: 1.25rem;
 }
 .benefit-checks > p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(29, 29, 31, 1);
 }
 .star-product{
-    width: 324px;
-    height: 1192px;
-    margin-left: 23px;
-    margin-top: 69.61px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 4.365rem 0 0 0;
     text-align: center;
 }
 .star-img{
@@ -271,37 +221,33 @@ nav a{
     height: 521px;
     border: 0;
     border-radius: 15px;
+    margin: 0 auto;
     background-color: rgba(243, 250, 251, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 1rem;
 }
 .star-product > p{
-    font-size: 15px;
+    font-size: 0.94rem;
     font-weight: 500;
-    margin-top: 35px;
-    margin-bottom: 13px;
+    margin-top: 2.1875rem;
+    margin-bottom: 0.8125rem;
 }
 .star-product > h1{
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 53px;
+    margin-bottom: 3.31rem;
 }
 .star-info{
-    width: 137px;
-    height: 82px;
-    border: 0;
-    margin-bottom: 39px;
+    margin-bottom: 2.4375rem;
 }
 .star-info > h1{
     color:rgba(6, 193, 103, 1) ;
-    font-size: 40px;
+    font-size: 2.25rem;
     font-weight: 600;
-    margin-bottom: 16px;
+    margin-bottom: 0.9rem;
 }
 .star-info > p{
     color: rgba(29, 29, 31, 1);
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: 400;
     opacity: 0.7;
 }
@@ -311,49 +257,45 @@ nav a{
     background-color: rgba(6, 193, 103, 1);
     color: rgba(255, 255, 255, 1);
     border: 0;
-    align-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
     margin-top: 66px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .star-product > button > p{
     width: 140px;
     height: 19px;
     color: rgba(255, 255, 255, 1);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 .features{
-    width: 320px;
-    height: 2520px;
-    margin-top: 129px;
-    margin-left: 28px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .features > p{
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 500;
     color: rgba(29, 29, 31, 1);
-    margin-bottom: 13px;
+    margin-bottom: 0.8rem;
 }
 .features > h1{
-    font-size: 35px;
-    font-weight: 500px;
+    font-size: 2.2rem;
+    font-weight: 500;
     color: rgba(29, 29, 31, 1);
-    text-align: center;
-    margin-bottom: 65px;
+    margin-bottom: 4rem;
 }
 .feature-card{
     width: 320px;
     height: 585px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
 }
 .feature-card > img{
     width: 320px;
@@ -363,24 +305,23 @@ nav a{
     height: 292.5px;
     background-color: rgba(240, 241, 236, 1);
     border: 1px solid rgba(6, 193, 103, 1);
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    padding-left: 2.375rem;
+    padding-top: 2.375rem;
+    padding-right: 3.5rem;
 }
 .card-details > h1{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
     color: rgba(29, 29, 31, 1);
-    margin-top: 37.5px;
-    margin-bottom: 25px;
-    margin-left: 38px;
+    margin-bottom: 1.5rem;
+    text-align: start;
 }
 .card-details > p{
-    width: 194px;
-    height: 38px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    margin-left: 38px;
-    margin-bottom: 37.5px;
+    margin-bottom: 2.4rem;
+    text-align: start;
 }
 .card-details > button{
     width: 148px;
@@ -389,39 +330,38 @@ nav a{
     color: rgba(6, 193, 103, 1);
     border: 0;
     border-radius: 5px;
-    margin-left: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 .products{
-    width: 320px;
-    height: 2074px;
-    margin-left: 27px;
-    margin-top: 129px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    text-align: center;
 }
 .products > p{
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: 500;
     color: rgba(29, 29, 31, 1);
-    margin-bottom: 13px;
+    margin-bottom: 0.8rem;
 }
 .products > h1{
-    font-size: 35px;
+    padding: 0 2rem;
+    font-size: 2.2rem;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 .product-card{
     width: 320px;
     height: 445px;
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(118, 118, 117, 0.25);
-    margin-top: 37px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -469,25 +409,21 @@ nav a{
     gap: 20px;
 }
 .explore{
-    width: 375px;
-    height: 459px;
     background-image: url(./images/explore-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 68px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 6.25rem 2rem ;
+    margin-top: 4.25rem;
+
     align-items: center;
-    gap: 52px;
+    gap: 3.25rem;
 }
 .explore > h1{
-    width: 293px;
-    height: 126px;
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
     text-align: center;
+    margin-bottom: 3.25rem;
 }
 .explore > button{
     width: 293px;
@@ -495,46 +431,37 @@ nav a{
     background-color: rgba(6, 193, 103, 1);
     color: rgba(255, 255, 255, 1);
     border: 0;
-    align-self: center;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 1.2rem;
     text-align: center;
 }
 .explore > button >p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 footer{
-    width: 375px;
-    height: 1291px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.5rem;
 }
 footer > .shop-details{
-    width: 277px;
-    height: 206.98px;
-    display: flex;
-    align-self: center;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+   margin: 0 auto;
+   padding: 0 2.5rem;
+   text-align: center;
 }
 footer > .shop-details > h1{
-    width: 120px;
-    height: 39px;
     color: rgba(6, 193, 103, 1);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
 }
 footer > .shop-details > p{
-    width: 277px;
-    height: 72px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    text-align: center;
+    margin-bottom: 2rem;
 }
 footer > .shop-details > .social-links{
     height: 21px;
@@ -546,10 +473,11 @@ footer > .shop-details > .social-links{
 footer > .about{
     width: 107px;
     height: 194px;
-    align-self: center;
     display: flex;
     flex-direction: column;
     margin-top: 79.02px;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer > .company{
     width: 110px;
@@ -558,9 +486,11 @@ footer > .company{
     display: flex;
     flex-direction: column;
     margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer h1{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     color: rgba(29, 29, 31, 1);
     margin-bottom: 41px;
@@ -573,22 +503,19 @@ footer .links{
     align-items: center;
 }
 footer .links > a{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(29, 29, 31, 1);
     text-decoration: none;
 }
 footer .get-in-touch{
-    width: 320px;
-    height: 261px;
-    align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
 }
 footer .get-in-touch > p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(29, 29, 31, 1);
     text-align: center;
@@ -619,16 +546,16 @@ footer .subscription > button{
     text-align: center;
 }
 footer .subscription > button > p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
 }
 footer > p{
-    font: 16px;
+    font: 1rem;
     font-weight: 400;
     color: rgba(29, 29, 31, 1);
-    align-self: center;
     margin-top: 81px;
+    text-align: center;
 }
 
 @media screen and (min-width: 1440px){
