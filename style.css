@@ -93,19 +93,19 @@ nav a{
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    row-gap: 2rem;
+    row-gap: 1.5rem;
 }
 .brand1{
-    width: 123.67px;
-    height: 28.59px; 
+    width: 144.67px;
+    height: 32px; 
 }
 .brand2{
-    width: 117.97px;
-    height: 23.67px;  
+    width: 147.97px;
+    height: 32px;  
 }
 .brand3{
-    width: 119.06px;
-    height: 27.18px;
+    width: 144.06px;
+    height: 32px;
 }
 .services{
     width: 88%;
@@ -362,8 +362,12 @@ nav a{
     padding: 0 2rem;
     font-size: 2.2rem;
     font-weight: 500;
-    text-align: center;
     margin-bottom: 2rem;
+}
+.product-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .product-card{
     width: 320px;
@@ -371,11 +375,12 @@ nav a{
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(118, 118, 117, 0.25);
     margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.product-card:nth-child(1){
+    border-color: rgba(6, 193, 103, 1);
 }
 .product-card > img{
     width: 190px;
@@ -425,7 +430,8 @@ nav a{
     background-size: cover;
     padding: 6.25rem 2rem ;
     margin-top: 4.25rem;
-
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     gap: 3.25rem;
 }
@@ -640,8 +646,8 @@ footer > p{
     .brands{
         justify-content: space-between;
         align-items: center;
-        margin-top: 103px;
-        margin-bottom: 103px;
+        margin-top: 90px;
+        margin-bottom: 90px;
     }
     .brand1{
         width: 212.47px;
@@ -694,7 +700,7 @@ footer > p{
         padding-bottom: 10px;
     }
     .benefit{
-        max-width: 85%;
+        max-width: 81.5%;
         max-height: 560.25px;
         justify-content: start;
         gap: 6.75rem;
@@ -722,7 +728,7 @@ footer > p{
         margin: 0;
     }
     .star-product{
-        max-width: 85%;
+        max-width: 81.5%;
         max-height: 607.12px;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -762,7 +768,7 @@ footer > p{
         border-radius: 15px;
     }
     .features{
-        max-width: 85%;
+        max-width: 81.5%;
         margin-top: 174.79px;
         margin-bottom: 191.72px;
     }
@@ -803,5 +809,101 @@ footer > p{
     .feature-card > .card-details{
         width: 292.5px;
         height: 292.5px;
+    }
+    .products{
+        max-width: 81.5%;
+        text-align: left;
+        margin-top: 191.72px;
+    }
+    .products > h1{
+        padding: 0;
+        font-size: 3.75rem;
+        margin-bottom: 3.931875rem;
+    }
+    .product-cards{
+        justify-content: space-between;
+    }
+    .product-card{
+        width: 270px;
+        height: 444px;
+        margin-top: 0;
+        border-radius: 0.8rem;
+    }
+    .product-card > button{
+        border-radius: 0.85rem;
+    }
+    .explore{
+        width: 81.5%;
+        height: 458.34px;
+        background-image: url(./images/explore-bg\(larg\).png);
+        border-radius: 1rem;
+        background-size: cover;
+        padding: 6.865rem 10.875rem;
+    }
+    .explore > h1{
+        font-size: 3.75rem;
+    }
+    .explore > button{
+        width: 210px;
+        border-radius: 1rem;
+    }
+    footer{
+        max-width: 81.5%;
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 5rem;
+        padding-bottom: 2.2rem;
+    }
+    footer > .shop-details{
+        width: 284px;
+        height: 208.68px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    footer > .shop-details > .social-links{
+        justify-content: start;
+    }
+    footer > .about{
+        margin: 0
+    }
+    footer > .company{
+        margin: 0
+    }
+    footer > .get-in-touch{
+        width: 338px;
+        height: 194.72px;
+        margin: 0;
+        align-items: flex-start;
+    }
+    footer .get-in-touch > p{
+        text-align: left;
+        margin-bottom: 2.28rem;
+    }
+    footer .subscription{
+        width: 338px;
+        height: 49.93px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .subscription > input{
+        width: 205px;
+        border-radius: 0.75rem;
+        height: 49.93px;
+    }
+    footer .subscription > button{
+        width: 118px;
+        height: 49.93px;
+        border-radius: 0.75rem;
+    }
+    footer > p{
+        width: 81.5%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
